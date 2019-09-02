@@ -14,6 +14,8 @@ public class ArticleService implements IArticleService {
 	
 	@Autowired
 	ArticleRepository articleRepository;
+	
+	//Vive Git !
 
 	@Override
 	public List<Article> findAll() {

@@ -57,9 +57,12 @@ public class ArticleController {
 		return articleService.findByStockLessThan(stock);
 	}
 	
+	
 	@RequestMapping(value="/articlesParPrixEtStock/{prix}/{stock}", method = RequestMethod.GET)
 	public List<Article> findByPrixAndStock(@PathVariable ("prix") float prix, @PathVariable ("stock") int stock) {
 		return articleService.findByPrixAndStock(prix, stock);
 	}
+	
+	//Fernando bois de l'eau
 	
 }

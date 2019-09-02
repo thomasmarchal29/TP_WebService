@@ -64,5 +64,6 @@ public class ArticleController {
 	}
 	
 	//Fernando bois de l'eau
+	// commentaire du conflit
 	
 }
